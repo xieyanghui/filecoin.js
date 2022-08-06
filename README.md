@@ -1,16 +1,6 @@
-# filecoin.js
-
-## Status
-
-This repository is currently being updated and will be further updated to support the coming Filecoin VM. Learn more at [fvm.filecoin.io](https://fvm.filecoin.io)
-
----
-
 A JavaScript (and TypeScript) library for interacting with the [Filecoin's](https://filecoin.io) [Lotus](https://github.com/filecoin-project/lotus) node, with support for external signers.
 
-## Documentation
-
-Visit the [Filecoin JS Docs](https://filecoin-shipyard.github.io/filecoin.js/).
+:warning: The library is currently in ALPHA: things will not work or work incorectly, will break and the API will change! :warning:
 
 ## Installing
 
