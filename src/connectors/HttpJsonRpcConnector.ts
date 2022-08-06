@@ -73,7 +73,7 @@ export class HttpJsonRpcConnector extends EventEmitter implements Connector {
   private _headers() {
     return {
       'Content-Type': 'application/json',
-      ...(this.token ? { 'Authorization': `Bearer ${this.token}` } : {})
+      ...(this.token ? { 'Authorization': `Basic ${this.token}` } : {})
     }
   }
 
